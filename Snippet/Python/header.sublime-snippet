@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+"""
+@package   ${TM_FILENAME/(.+)\..+/$1/}
+@author    Bismarck Gomes (bismarckgomes@gmail.com)
+@date      ${2}
+@copyright GNU Lesser General Public License v3
+
+@brief ${3}
+"""
+]]></content>
+    <tabTrigger>header</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

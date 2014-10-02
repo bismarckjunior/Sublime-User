@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+
+    """
+    $1${TM_CURRENT_LINE/[\w\s:=]+\((self)?([\w$_]+)?=?[^,]*(?:, ([\w$_]+)=?[^,]*)?(?:, ([\w$_]+)=?[^,]*)?(?:, ([\w$_]+)=?[^,]*)?(?:, ([\w$_]+)=?[^,]*)?(?:, ([\w$_]+)=?[^,]*)?(?:, ([\w$_]+)=?[^,]*)?(?:, ([\w$_]+)=?[^,]*)?(?:, ([\w$_]+)=?[^,]*)?(?:, ([\w$_]+)=?[^,]*)?\).*/?1:(?3:
+    @param $3?4:
+    @param $3?4:
+    @param $4?5:
+    @param $5?6:
+    @param $6?7:
+    @param $7?8:
+    @param $8?9:
+    @param $9?10:
+    @param $10):?2:
+    @param $2?3:
+    @param $3?4:
+    @param $3?4:
+    @param $4?5:
+    @param $5?6:
+    @param $6?7:
+    @param $7?8:
+    @param $8?9:
+    @param $9?10:
+    @param $10/g}
+    @return $2
+    """
+
+]]></content>
+   <tabTrigger>doc</tabTrigger>
+   <scope>source.python</scope>
+</snippet>

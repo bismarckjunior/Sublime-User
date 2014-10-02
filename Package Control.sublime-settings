@@ -1,0 +1,17 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Anaconda",
+		"DocBlockr",
+		"Fold Python",
+		"Fold Python Docstrings",
+		"Git",
+		"GitGutter",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"PlainTasks",
+		"SideBarEnhancements",
+		"SublimeCodeIntel"
+	]
+}
