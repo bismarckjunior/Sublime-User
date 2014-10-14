@@ -7,18 +7,19 @@
 			"selector": "source.python"
 		}
 	],
-	"default_encoding": "Western (ISO 8859-1)",
-	"fold_python_docstrings_onload": true,
 	"folder_exclude_patterns":
 	[
 		".git",
-		"*.pyc"
+		"*.pyc",
+		"*~",
+		"*#"
 	],
 	"font_size": 13,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Markdown"
 	],
 	"rulers":
 	[
