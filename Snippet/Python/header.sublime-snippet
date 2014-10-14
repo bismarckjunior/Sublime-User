@@ -1,12 +1,11 @@
 <snippet>
     <content><![CDATA[
 """
-@${1:package}   ${2:${TM_FILENAME/(.+)\..+/$1/}}
 @author    Bismarck Gomes (bismarckgomes@gmail.com)
-@date      ${3}
+@date      ${1}
 @copyright GNU Lesser General Public License v3
 
-@brief ${4}
+@brief ${2}
 """
 ]]></content>
     <tabTrigger>header</tabTrigger>
