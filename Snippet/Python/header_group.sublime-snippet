@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+"""
+@${1:defgroup}   ${2:${TM_FILENAME/(.+)\..+/$1/}}
+@author    Bismarck Gomes (bismarckgomes@gmail.com)
+@date      ${3}
+@copyright GNU Lesser General Public License v3
+
+@brief ${4}
+"""
+]]></content>
+    <tabTrigger>header_group</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
