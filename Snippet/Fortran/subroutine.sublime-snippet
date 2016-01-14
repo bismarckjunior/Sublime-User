@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+subroutine ${1:routine}(${2})
+    ${3}
+end subroutine
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>subroutine</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.fortran</scope>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+module ${1:Class_name}_Class
+    use module_real_kind
+    ${2}
+    implicit none
+
+    private
+
+    public :: ${1}
+
+    type${3} :: ${1}
+        ${4}
+    contains
+        ${5}
+    end type
+    ${6}
+    interface ${1}
+        module procedure constructor
+    end interface
+
+contains
+    type($1) function(${7})
+        ${8}
+    end function
+end module
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>module_class</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.fortran</scope>
+</snippet>
