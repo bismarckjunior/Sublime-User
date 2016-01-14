@@ -1,0 +1,15 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Git",
+		"GitGutter",
+		"MinimalFortran",
+		"Package Control",
+		"PlainTasks",
+		"SideBarEnhancements",
+		"TodoReview"
+	]
+}
