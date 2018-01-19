@@ -14,7 +14,7 @@
 		"*~",
 		"*#"
 	],
-	"font_size": 14,
+	"font_size": 16,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -26,6 +26,7 @@
 		80
 	],
 	"show_encoding": true,
+	"show_errors_inline": false,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "false"
