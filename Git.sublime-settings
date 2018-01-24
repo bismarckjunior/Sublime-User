@@ -1,4 +1,6 @@
 {
     "statusbar_status": false,
-    "statusbar_branch": false
+    "statusbar_branch": false,
+    "history_size": 10,
+    "status_opens_file": true
 }
